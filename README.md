@@ -1,0 +1,2 @@
+# SolArena
+Auto referrals.
