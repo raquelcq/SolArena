@@ -1,0 +1,18 @@
+{
+  "timeZone": "en-US",
+  "rotateProxy": false,
+  "skipInvalidProxy": false,
+  "proxyRotationInterval": 2,
+  "delayEachAccount": [1, 1],
+  "timeToRestartAllAccounts": 300,
+  "howManyAccountsRunInOneTime": 100,
+  "playGames": true,
+  "referral": false,
+  "referralCodes": ["bGAxXum"],
+
+  "movement": {
+    "updateInterval": 150,
+    "boostDistanceThreshold": 40,
+    "emergencyTurnAngle": 45
+  }
+}
